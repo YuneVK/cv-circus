@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  color: #37474F;
+  font-size: 35px;
+}
+
+h2 {
+  color: #37474F;
+  font-size: 25px;
+  text-align: center;
+}
+
+/* HEADER */
+#title {
+  background: #B0BEC5;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+
+
+#photo {
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  margin-right: 40px;
+}
+
+#contact {
+  flex-grow: 1;
+}
+
+#contact img {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+
+#contact p {
+  margin: 5px;
+}
+
+#contact .info {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* SKILLS */
+#skills {
+  padding: 30px;
+}
+
+/* EXPERIENCE */
+#experience {
+  padding: 30px;
+  background: #ECEFF1;
+}
+
+.title {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #37474F;
+}
+
+.year {
+  color: #263238;
+  font-size: 12px;
+  margin-top: 0;
+}
